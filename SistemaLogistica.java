@@ -29,13 +29,17 @@ public class SistemaLogistica {
                 switch (opcion) {
                     case 1:
                         buscarRuta(sn);
+                        break;
                     case 2:
                         System.out.println("\nel centro del grafo es" + calculadora.calcularCentro(grafo));
+                        break;
                     case 3:
                         modificarGrafo(sn);
+                        break;
                     case 4:
                         System.out.println("saliendo");
                         salir = true;
+                        break;
                     default:
                         System.out.println("invalido");
                 }

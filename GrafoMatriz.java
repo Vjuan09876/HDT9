@@ -35,7 +35,7 @@ public class GrafoMatriz<V, E> implements IGrafo<V, E> {
             int j = diccIndices.get(v2);
             matriz[i][j] = (E) Integer.valueOf(INF); 
     }
-
+}
     @Override
     public E getPeso(V v1, V v2) {
         return matriz[diccIndices.get(v1)][diccIndices.get(v2)];
